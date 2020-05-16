@@ -18,7 +18,8 @@ ul {
 }
 .container {
   width: 1230px;
-  margin: 0 15px;
+  padding: 0 15px;
+  margin: 0 auto;
   text-align: center;
 }
 .section {
@@ -40,6 +41,8 @@ ul {
   line-height: 1.19;
 }
 .logo-secondary {
+  display: block;
+  margin-bottom: 10px;
   color: #ffffff;
   text-decoration: none;
   font-family: Raleway;
@@ -110,27 +113,39 @@ header .link-info:focus {
 }
 .footer-list {
   display: flex;
+  text-align: start;
+  align-items: baseline;
 }
-.footer .container {
-  display: flex;
-}
-address {
+.address {
+  display: block;
   font-style: normal;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.address {
+.physical-address {
+  margin-bottom: 9px;
+  margin-right: 179px;
   color: #ffffff;
+}
+.footer-social {
+  margin-right: 102px;
+}
+.social-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.email-address {
+  margin-bottom: 9px;
 }
 .social-list {
   display: flex;
   justify-content: center;
 }
-/* .social-item {
-  justify-content: center;
-} */
 .social-item:not(:last-child) {
   margin-right: 10px;
 }
@@ -184,7 +199,6 @@ address {
 .advantage-frame {
   width: 278px;
   height: 120px;
-
   background: #f5f4fa;
 }
 .advantage-img {
